@@ -214,3 +214,9 @@ svg{display:block}
   .maptop h2{font-size:1.5rem}
   .island .tag{font-size:1.3rem;padding:.1rem 1rem}
 }
+
+/* botón de volver: azul vivo con aro blanco para que destaque sobre cualquier cabecera */
+.icon-btn[data-a=back],#bk,.libhead .back{width:3.6rem;height:3.6rem;background:#1F6BFF;color:#fff;border:.2rem solid #fff;box-shadow:0 .3rem 0 #1248B8,0 0 0 .2rem rgba(31,107,255,.25);transition:transform .12s,background .15s}
+.icon-btn[data-a=back] svg,#bk svg,.libhead .back svg{width:1.9rem;height:1.9rem;stroke-width:3.6}
+.icon-btn[data-a=back]:hover,#bk:hover,.libhead .back:hover{background:#2F7BFF;transform:scale(1.07)}
+.icon-btn[data-a=back]:active,#bk:active,.libhead .back:active{transform:translateY(.2rem);box-shadow:0 .1rem 0 #1248B8}
